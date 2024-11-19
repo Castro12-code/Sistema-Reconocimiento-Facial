@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sistema de Reconocimiento Facial</title>
+    <link rel="stylesheet" href="CSS/styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">
+            <img src="Assets/logo.png" alt="Logo" class="logo-img">
+            Sistema de Reconocimiento Facial
+        </div>
+        <ul class="nav-links">
+            <li><a href="#/" class="nav-link" data-route="transmision">Transmisión en Vivo</a></li>
+            <li><a href="#/rostros" class="nav-link" data-route="rostros">Rostros</a></li>
+            <li><a href="#/notificaciones" class="nav-link" data-route="notificaciones">Notificaciones</a></li>
+        </ul>
+    </nav>
+
+    <main id="app">
+        <!-- El contenido de las diferentes vistas se cargará aquí -->
+    </main>
+
+    <script src="JS/camara.js"></script>
+    <script src="JS/router.js"></script>
+</body>
+</html>
